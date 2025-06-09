@@ -1,4 +1,6 @@
 ### Step-by-Step Configuration of "CI/CD Pipeline for Scalable Web Application" on AWS Using Jenkins ###
+![image](https://github.com/user-attachments/assets/5f678698-e360-4857-b3b9-e94a878676d9)
+
 
 ## Project Tech Stack
 - **AWS EC2** (App Hosting)
