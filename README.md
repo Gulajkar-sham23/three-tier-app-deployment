@@ -45,19 +45,16 @@
 - CloudWatch monitoring
 
 ## Setup Guide
-## Setup Guide
-![Copy](https://img.shields.io/badge/-Copy_Commands-blue?style=flat-square)
-
-```bash
+bash
 cd terraform
 terraform init
 terraform apply
 
 
 ## Jenkins Pipeline
-Configure Jenkins using the provided `Jenkinsfile`. AWS credentials should be stored securely using Jenkins credentials manager.
+Configure Jenkins using the provided Jenkinsfile. AWS credentials should be stored securely using Jenkins credentials manager.
 
 ## Running Locally
-```bash
+bash
 docker build -t mywebapp:latest .
 docker run -p 5000:5000 mywebapp:latest
